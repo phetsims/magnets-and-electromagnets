@@ -15,12 +15,27 @@
     "runnable": true,
     "supportedBrands": [
       "phet",
+      "phet-io",
       "adapted-from-phet"
+    ],
+    "phetLibs": [
+      "bamboo",
+      "faradays-electromagnetic-lab"
     ],
     "supportsOutputJS": true,
     "simFeatures": {
-      "supportsDynamicLocale": true
-    }
+      "supportsSound": true,
+      "supportsDynamicLocale": true,
+      "supportsInteractiveDescription": true,
+      "colorProfiles": [
+        "default",
+        "projector"
+      ]
+    },
+    "screenNameKeys": [
+      "FARADAYS_ELECTROMAGNETIC_LAB/screen.barMagnet",
+      "FARADAYS_ELECTROMAGNETIC_LAB/screen.electromagnet"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js",

@@ -36,15 +36,29 @@
         "requirejsNamespace": "MAGNETS_AND_ELECTROMAGNETS",
         "simulation": true,
         "runnable": true,
-        "readmeCreatedManually": true,
         "supportedBrands": [
           "phet",
+          "phet-io",
           "adapted-from-phet"
+        ],
+        "phetLibs": [
+          "bamboo",
+          "faradays-electromagnetic-lab"
         ],
         "supportsOutputJS": true,
         "simFeatures": {
-          "supportsDynamicLocale": true
-        }
+          "supportsSound": true,
+          "supportsDynamicLocale": true,
+          "supportsInteractiveDescription": true,
+          "colorProfiles": [
+            "default",
+            "projector"
+          ]
+        },
+        "screenNameKeys": [
+          "FARADAYS_ELECTROMAGNETIC_LAB/screen.barMagnet",
+          "FARADAYS_ELECTROMAGNETIC_LAB/screen.electromagnet"
+        ]
       },
       "eslintConfig": {
         "extends": "../chipper/eslint/sim_eslintrc.js",
@@ -72,16 +86,24 @@
   window.phet.chipper.stringRepos =
     [
       {
+        "repo": "bamboo",
+        "requirejsNamespace": "BAMBOO"
+      },
+      {
+        "repo": "faradays-electromagnetic-lab",
+        "requirejsNamespace": "FARADAYS_ELECTROMAGNETIC_LAB"
+      },
+      {
         "repo": "joist",
         "requirejsNamespace": "JOIST"
       },
       {
-        "repo": "scenery-phet",
-        "requirejsNamespace": "SCENERY_PHET"
-      },
-      {
         "repo": "magnets-and-electromagnets",
         "requirejsNamespace": "MAGNETS_AND_ELECTROMAGNETS"
+      },
+      {
+        "repo": "scenery-phet",
+        "requirejsNamespace": "SCENERY_PHET"
       },
       {
         "repo": "sun",

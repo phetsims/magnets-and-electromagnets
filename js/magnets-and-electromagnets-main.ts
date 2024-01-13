@@ -9,33 +9,42 @@
 import Sim, { SimOptions } from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import MagnetsAndElectromagnetsScreen from './magnets-and-electromagnets/MagnetsAndElectromagnetsScreen.js';
 import MagnetsAndElectromagnetsStrings from './MagnetsAndElectromagnetsStrings.js';
-import './common/MagnetsAndElectromagnetsQueryParameters.js';
+import FELConstants from '../../faradays-electromagnetic-lab/js/common/FELConstants.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
+import BarMagnetScreen from '../../faradays-electromagnetic-lab/js/bar-magnet/BarMagnetScreen.js';
+import FELPreferencesNode from '../../faradays-electromagnetic-lab/js/common/view/preferences/FELPreferencesNode.js';
+import ElectromagnetScreen from '../../faradays-electromagnetic-lab/js/electromagnet/ElectromagnetScreen.js';
+import FELPreferences from '../../faradays-electromagnetic-lab/js/common/model/FELPreferences.js';
 
-// Launch the sim. Beware that scenery Image nodes created outside simLauncher.launch() will have zero bounds
-// until the images are fully loaded. See https://github.com/phetsims/coulombs-law/issues/70#issuecomment-429037461
+// If addEarthCheckbox query parameter was not in the URL, change the default.
+if ( !QueryStringMachine.containsKey( 'addEarthCheckbox' ) ) {
+  FELPreferences.addEarthCheckboxProperty.value = true;
+}
+
 simLauncher.launch( () => {
 
   const titleStringProperty = MagnetsAndElectromagnetsStrings[ 'magnets-and-electromagnets' ].titleStringProperty;
 
   const screens = [
-    new MagnetsAndElectromagnetsScreen( { tandem: Tandem.ROOT.createTandem( 'magnetsAndElectromagnetsScreen' ) } )
+    new BarMagnetScreen( Tandem.ROOT.createTandem( 'barMagnetScreen' ) ),
+    new ElectromagnetScreen( Tandem.ROOT.createTandem( 'electromagnetScreen' ) )
   ];
 
   const options: SimOptions = {
-
-    //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
-    credits: {
-      leadDesign: '',
-      softwareDevelopment: '',
-      team: '',
-      contributors: '',
-      qualityAssurance: '',
-      graphicArts: '',
-      soundDesign: '',
-      thanks: ''
-    }
+    credits: FELConstants.CREDITS,
+    preferencesModel: new PreferencesModel( {
+      visualOptions: {
+        supportsProjectorMode: true
+      },
+      simulationOptions: {
+        customPreferences: [ {
+          createContent: tandem => new FELPreferencesNode( {
+            tandem: tandem.createTandem( 'simPreferences' )
+          } )
+        } ]
+      }
+    } )
   };
 
   const sim = new Sim( titleStringProperty, screens, options );
