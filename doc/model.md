@@ -2,6 +2,6 @@
 
 @author Chris Malley (PixelZoom, Inc.)
 
-The _Magnets and Electromagnets_ simulation consists of the _Bar Magnet_ and _Electromagnet_ screens from the _Faraday's Electromagnetic Lab_ simulation.
+**Magnets and Electromagnets** consists of the _Bar Magnet_ and _Electromagnet_ screens from **Faraday's Electromagnetic Lab**.
 
-See [faradays-electromagnetic-lab/model.md](https://github.com/phetsims/faradays-electromagnetic-lab/blob/main/doc/model.md) for model details.
+See [faradays-electromagnetic-lab/doc/model.md](https://github.com/phetsims/faradays-electromagnetic-lab/blob/main/doc/model.md) for details.
