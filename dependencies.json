@@ -1,91 +1,111 @@
 {
-  "comment": "# magnets-and-electromagnets 1.0.0-dev.1 Tue Apr 09 2019 12:10:58 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# magnets-and-electromagnets 1.0.0-rc.0 Thu Jul 18 2024 12:04:06 GMT-0600 (Mountain Daylight Time)",
   "assert": {
-    "sha": "d8a2e8992420327ff72a6fc4bb93ec76549ded0e",
+    "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "main"
   },
   "axon": {
-    "sha": "2da6c6173a0ed6bedc1dad8a5fffac27faaf5259",
+    "sha": "950a9a5da2d992d0834df8a984bcb8b5185b8448",
+    "branch": "main"
+  },
+  "bamboo": {
+    "sha": "2c5740011601cf178bd7a262af2e377eaaf32d32",
     "branch": "main"
   },
   "brand": {
-    "sha": "40dd405ec950d10e15e957cbda3d97362e925bef",
+    "sha": "0e84d480a4e3e5ce0fc42537467d09e7d3ffb192",
     "branch": "main"
   },
   "chipper": {
-    "sha": "9ad482f12f8a23b5db133fff1f83d2188ea1ca71",
+    "sha": "c6c8dbcbb4d98900c756c7fb0fe8e1b516325fff",
     "branch": "main"
   },
   "dot": {
-    "sha": "0c7f66f353443ca23cc3e6b6e81ddba94d5fb120",
+    "sha": "cdb6a3a16167a8d4bd8273ea40756c6b2fad7e46",
+    "branch": "main"
+  },
+  "faradays-electromagnetic-lab": {
+    "sha": "36b339d1c489360b8b3d07e62f15b398b42ae636",
     "branch": "main"
   },
   "joist": {
-    "sha": "5be6cce9af6453fba670869c85cb3d9d378af7fd",
+    "sha": "582adcdd333a534342fad96d02b49937c16dd940",
     "branch": "main"
   },
   "kite": {
-    "sha": "95999b737aad44dde813fee32661ea196fc400b9",
-    "branch": "main"
-  },
-  "phet-core": {
-    "sha": "98d20de43c3360cb8e10109401ab44b6e6bc6986",
-    "branch": "main"
-  },
-  "phet-io": {
-    "sha": "de3ba60fc9c2359d1ef3dac7cc413edbe2435dad",
-    "branch": "main"
-  },
-  "phet-io-wrapper-classroom-activity": {
-    "sha": "248958109c8d3b73b5f9d6c31015b2c8b5016571",
-    "branch": "main"
-  },
-  "phet-io-wrapper-lab-book": {
-    "sha": "e5309c0d655079dede0616b5aa637e624e978242",
-    "branch": "main"
-  },
-  "phet-io-wrappers": {
-    "sha": "160f6c61f3533694a8c2b8fc58e29622381014da",
-    "branch": "main"
-  },
-  "phetcommon": {
-    "sha": "6d7cec347b7c30faff7e99956a87eb10e535dafa",
-    "branch": "main"
-  },
-  "phetmarks": {
-    "sha": "4e089c3241fab3c6c99820a3be8349469bf20191",
-    "branch": "main"
-  },
-  "query-string-machine": {
-    "sha": "aeac99bd3badf40473561fd2e31928aa3d58b86b",
-    "branch": "main"
-  },
-  "scenery": {
-    "sha": "803d3ffd4ac75b784417e901d8fcc9f88bf26dd0",
-    "branch": "main"
-  },
-  "scenery-phet": {
-    "sha": "c6912dbdc482b28e385212d090ad55eb731e6095",
-    "branch": "main"
-  },
-  "sherpa": {
-    "sha": "22d2ea6a9a2ea4f575f87e6c1a4914f6200d9197",
+    "sha": "d780083bfeb93b5e110c0554dad80adfe85e81b2",
     "branch": "main"
   },
   "magnets-and-electromagnets": {
-    "sha": "b271af956e7ba8c1f0b7f3dc6cf89e4e63a4f648",
+    "sha": "89a5c75c6c16582ee5c75df0aa6f2b4db1575e4a",
+    "branch": "1.0"
+  },
+  "perennial-alias": {
+    "sha": "bebb0703e255ee17620c000876c6bfa4ea419549",
+    "branch": "main"
+  },
+  "phet-core": {
+    "sha": "923891320890a15e0f45b3fd328862684a2b5582",
+    "branch": "main"
+  },
+  "phet-io": {
+    "sha": "61bd53be3ef3cff176dda2c5d0dc5c9143f790f2",
+    "branch": "main"
+  },
+  "phet-io-sim-specific": {
+    "sha": "8574a4716c993684ad31c87794e4bd65d3dc3f01",
+    "branch": "main"
+  },
+  "phet-io-wrappers": {
+    "sha": "63e552539446eb640a97f287f693f22a0060c09b",
+    "branch": "main"
+  },
+  "phetcommon": {
+    "sha": "54b41ebbdddd743650d557910ec33b46b2b10317",
+    "branch": "main"
+  },
+  "phetmarks": {
+    "sha": "fee0d0789147c885aeb0b4ace69337e4558813e5",
+    "branch": "main"
+  },
+  "query-string-machine": {
+    "sha": "1dacedac04aa8515379d9eabff5849da4a244641",
+    "branch": "main"
+  },
+  "scenery": {
+    "sha": "224b2953de50acc756ad2c17a638305ad0fe972a",
+    "branch": "main"
+  },
+  "scenery-phet": {
+    "sha": "d2d36ff3e1f0c98a5f9b36d083a31f3d6b7f84dd",
+    "branch": "main"
+  },
+  "sherpa": {
+    "sha": "2a9781ad47ee67b5af54cfc40f2255b048083351",
+    "branch": "main"
+  },
+  "studio": {
+    "sha": "25d3b0c2f79eabb12af99e10b71701c10c629136",
     "branch": "main"
   },
   "sun": {
-    "sha": "639af54466a1c654d61708c61b870f18d76c58ef",
+    "sha": "5635895f2ff21ae5ec85a5857618cb8e13af9867",
     "branch": "main"
   },
   "tambo": {
-    "sha": "06b7bb5cbda692908149f95f64b261d13bbe774f",
+    "sha": "cf853d6c796ea3486e9d7f2508fec1b2bb465216",
     "branch": "main"
   },
   "tandem": {
-    "sha": "e20d57b80b322a9a7afd77e80d64d99988137238",
+    "sha": "eb8d2f1587c2bb63481ca4cec19c6d27bfc1464b",
+    "branch": "main"
+  },
+  "twixt": {
+    "sha": "bcacbfb0295840eb491e4a03223c2c426ef2ae43",
+    "branch": "main"
+  },
+  "utterance-queue": {
+    "sha": "0070eb725c0e9cef633e3c7b60dd8697d3619545",
     "branch": "main"
   }
 }
