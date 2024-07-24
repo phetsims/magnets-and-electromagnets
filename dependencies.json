@@ -1,5 +1,5 @@
 {
-  "comment": "# magnets-and-electromagnets 1.0.0-rc.1 Thu Jul 18 2024 12:06:13 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# magnets-and-electromagnets 1.0.0-rc.1 Wed Jul 24 2024 12:24:12 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnets-and-electromagnets": {
-    "sha": "e9a2f410f4bb213b700fca5c75e07e6a5ce7b176",
+    "sha": "312c4a569689eb592fa7b53a0c114b66d8e11ff0",
     "branch": "1.0"
   },
   "perennial-alias": {
@@ -53,8 +53,8 @@
     "branch": "HEAD"
   },
   "phet-io-sim-specific": {
-    "sha": "8574a4716c993684ad31c87794e4bd65d3dc3f01",
-    "branch": "HEAD"
+    "sha": "0f768dec57a2b549958f1707e9da03b39c860f11",
+    "branch": "magnets-and-electromagnets-1.0"
   },
   "phet-io-wrappers": {
     "sha": "63e552539446eb640a97f287f693f22a0060c09b",
