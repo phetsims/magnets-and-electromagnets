@@ -1,5 +1,5 @@
 {
-  "comment": "# magnets-and-electromagnets 1.0.0-rc.1 Thu Jul 25 2024 13:13:32 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# magnets-and-electromagnets 1.0.0-rc.1 Thu Jul 25 2024 15:36:32 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "faradays-electromagnetic-lab": {
-    "sha": "94de70a5d2f9091a4be8825f1f448a1e90a9cdd7",
+    "sha": "9d3872a69ae71bdce48d241b0a560ccc8e4a8200",
     "branch": "magnets-and-electromagnets-1.0"
   },
   "joist": {
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnets-and-electromagnets": {
-    "sha": "c25fd5ebdd81185accd50291fd012d0d4dd19cc1",
+    "sha": "06b57d1ada53969210ab1d6ebc2bbd46dd4cf596",
     "branch": "1.0"
   },
   "perennial-alias": {
