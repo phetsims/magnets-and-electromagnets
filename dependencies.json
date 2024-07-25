@@ -1,5 +1,5 @@
 {
-  "comment": "# magnets-and-electromagnets 1.0.0-rc.1 Wed Jul 24 2024 12:24:12 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# magnets-and-electromagnets 1.0.0-rc.1 Thu Jul 25 2024 13:13:32 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -25,8 +25,8 @@
     "branch": "HEAD"
   },
   "faradays-electromagnetic-lab": {
-    "sha": "36b339d1c489360b8b3d07e62f15b398b42ae636",
-    "branch": "HEAD"
+    "sha": "94de70a5d2f9091a4be8825f1f448a1e90a9cdd7",
+    "branch": "magnets-and-electromagnets-1.0"
   },
   "joist": {
     "sha": "582adcdd333a534342fad96d02b49937c16dd940",
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnets-and-electromagnets": {
-    "sha": "312c4a569689eb592fa7b53a0c114b66d8e11ff0",
+    "sha": "c25fd5ebdd81185accd50291fd012d0d4dd19cc1",
     "branch": "1.0"
   },
   "perennial-alias": {
@@ -54,7 +54,7 @@
   },
   "phet-io-sim-specific": {
     "sha": "0f768dec57a2b549958f1707e9da03b39c860f11",
-    "branch": "magnets-and-electromagnets-1.0"
+    "branch": "HEAD"
   },
   "phet-io-wrappers": {
     "sha": "63e552539446eb640a97f287f693f22a0060c09b",
