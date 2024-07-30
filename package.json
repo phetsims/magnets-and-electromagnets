@@ -38,7 +38,8 @@
     "screenNameKeys": [
       "FARADAYS_ELECTROMAGNETIC_LAB/screen.barMagnet",
       "FARADAYS_ELECTROMAGNETIC_LAB/screen.electromagnet"
-    ]
+    ],
+    "published": true
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js",
