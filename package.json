@@ -61,7 +61,7 @@
         },
         "parserOptions": {
           "project": [
-            "../magnets-and-electromagnets/tsconfig.json"
+            "../chipper/tsconfig/eslint-all/tsconfig.json"
           ]
         }
       }
