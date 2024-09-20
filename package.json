@@ -58,6 +58,11 @@
               "ts-nocheck": true
             }
           ]
+        },
+        "parserOptions": {
+          "project": [
+            "../magnets-and-electromagnets/tsconfig.json"
+          ]
         }
       }
     ]

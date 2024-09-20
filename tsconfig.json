@@ -5,5 +5,16 @@
     "images/**/*",
     "mipmaps/**/*",
     "sounds/**/*"
+  ],
+  "references": [
+    {
+      "path": "../faradays-electromagnetic-lab/tsconfig.json"
+    },
+    {
+      "path": "../bamboo/tsconfig.json"
+    },
+    {
+      "path": "../chipper/tsconfig/buildjson"
+    }
   ]
 }
