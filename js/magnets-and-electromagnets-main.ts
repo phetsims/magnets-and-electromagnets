@@ -6,14 +6,14 @@
  * @author Chris Malley (PixelZoom, Inc.)
  */
 
+import BarMagnetScreen from '../../faradays-electromagnetic-lab/js/bar-magnet/BarMagnetScreen.js';
+import FELQueryParameters from '../../faradays-electromagnetic-lab/js/common/FELQueryParameters.js';
+import FELSim from '../../faradays-electromagnetic-lab/js/common/FELSim.js';
+import FELPreferences from '../../faradays-electromagnetic-lab/js/common/model/FELPreferences.js';
+import ElectromagnetScreen from '../../faradays-electromagnetic-lab/js/electromagnet/ElectromagnetScreen.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import MagnetsAndElectromagnetsStrings from './MagnetsAndElectromagnetsStrings.js';
-import BarMagnetScreen from '../../faradays-electromagnetic-lab/js/bar-magnet/BarMagnetScreen.js';
-import ElectromagnetScreen from '../../faradays-electromagnetic-lab/js/electromagnet/ElectromagnetScreen.js';
-import FELPreferences from '../../faradays-electromagnetic-lab/js/common/model/FELPreferences.js';
-import FELSim from '../../faradays-electromagnetic-lab/js/common/FELSim.js';
-import FELQueryParameters from '../../faradays-electromagnetic-lab/js/common/FELQueryParameters.js';
 
 // The 'Earth' checkbox should be visible by default, unless specified otherwise in the URL.
 // See https://github.com/phetsims/faradays-electromagnetic-lab/issues/23
