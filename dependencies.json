@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "c6c8dbcbb4d98900c756c7fb0fe8e1b516325fff",
+    "sha": "a7fe4fa14f5728460583102edb43a1dfe3da9fd8",
     "branch": "HEAD"
   },
   "dot": {
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnets-and-electromagnets": {
-    "sha": "00fd40b9536a04ee66c4a78cce24e12f38a43886",
+    "sha": "0fff13408337ea8cedcafe6226c0d62b4c16002b",
     "branch": "1.0"
   },
   "perennial-alias": {
@@ -57,7 +57,7 @@
     "branch": "HEAD"
   },
   "phet-io-wrappers": {
-    "sha": "63e552539446eb640a97f287f693f22a0060c09b",
+    "sha": "cc01f5f3baa4c1ba918a549a75dd4f85c94dc827",
     "branch": "HEAD"
   },
   "phetcommon": {
