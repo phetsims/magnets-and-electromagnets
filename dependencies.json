@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnets-and-electromagnets": {
-    "sha": "0436c70cec99d2a8d73be6f81551ed53038e9e62",
+    "sha": "c815eece5dd15f3ac9c0685031b4ea047a648e38",
     "branch": "1.0"
   },
   "perennial-alias": {
@@ -49,7 +49,7 @@
     "branch": "HEAD"
   },
   "phet-io": {
-    "sha": "61bd53be3ef3cff176dda2c5d0dc5c9143f790f2",
+    "sha": "a8cdb9ec569abbd1ff3a1b928b38fdafd48f97d4",
     "branch": "HEAD"
   },
   "phet-io-sim-specific": {
