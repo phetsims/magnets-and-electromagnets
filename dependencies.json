@@ -13,11 +13,11 @@
     "branch": "HEAD"
   },
   "brand": {
-    "sha": "0e84d480a4e3e5ce0fc42537467d09e7d3ffb192",
+    "sha": "78f917d0d0dae450b180e1e2dcdd2778f90294a4",
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "6301906501d0f5263df5158d230b1970c64f8a76",
+    "sha": "45b6c4f57e8ab97d34c97b2b0effad4b741f63ae",
     "branch": "HEAD"
   },
   "dot": {
@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "4c5f4d890ecba1baf57bf0336b32433ebe560ccf",
+    "sha": "ff04231f710c51e66346a653754d9298c68c11ba",
     "branch": "HEAD"
   },
   "kite": {
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnets-and-electromagnets": {
-    "sha": "9c5bdb241da2d41f18dd77fe8d2be51cc0ef7fb8",
+    "sha": "7638e3db21843957064a71c301a36beb7b6911d5",
     "branch": "1.0"
   },
   "perennial-alias": {
@@ -57,7 +57,7 @@
     "branch": "HEAD"
   },
   "phet-io-wrappers": {
-    "sha": "cc01f5f3baa4c1ba918a549a75dd4f85c94dc827",
+    "sha": "992286ebc02832f6b077a8cd2cfd437edd330be1",
     "branch": "HEAD"
   },
   "phetcommon": {
