@@ -12,6 +12,7 @@ import FELSim from '../../faradays-electromagnetic-lab/js/common/FELSim.js';
 import FELPreferences from '../../faradays-electromagnetic-lab/js/common/model/FELPreferences.js';
 import ElectromagnetScreen from '../../faradays-electromagnetic-lab/js/electromagnet/ElectromagnetScreen.js';
 import simLauncher from '../../joist/js/simLauncher.js';
+import { QueryStringMachine } from '../../query-string-machine/js/QueryStringMachineModule.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import MagnetsAndElectromagnetsStrings from './MagnetsAndElectromagnetsStrings.js';
 
