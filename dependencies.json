@@ -1,5 +1,5 @@
 {
-  "comment": "# magnets-and-electromagnets 1.0.3 Wed Jun 11 2025 11:40:11 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# magnets-and-electromagnets 1.0.4-rc.1 Tue Sep 09 2025 22:00:20 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -37,7 +37,7 @@
     "branch": "HEAD"
   },
   "magnets-and-electromagnets": {
-    "sha": "0a6e83ba2ee3a207b211d0801e830ae0febcafca",
+    "sha": "61aeffdecc9e925a9c417bbfa81da79feea7007a",
     "branch": "1.0"
   },
   "perennial-alias": {
