@@ -22,4 +22,6 @@ type StringsType = {
 
 const MagnetsAndElectromagnetsStrings = getStringModule( 'MAGNETS_AND_ELECTROMAGNETS' ) as StringsType;
 
+magnetsAndElectromagnets.register( 'MagnetsAndElectromagnetsStrings', MagnetsAndElectromagnetsStrings );
+
 export default MagnetsAndElectromagnetsStrings;
